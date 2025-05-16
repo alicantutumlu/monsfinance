@@ -1,0 +1,275 @@
+.pointer {
+  cursor: pointer !important;
+}
+.thick20 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26.6px;
+  color: var(--header);
+
+  &.w300 {
+    font-weight: 300;
+  }
+
+  &.outScroll {
+    color: var(--outHeader);
+  }
+
+  &.primary {
+    color: var(--primary);
+  }
+
+  &.gray {
+    color: var(--gray);
+  }
+
+  &.purple {
+    color: var(--purple);
+  }
+}
+.text-18 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #81eff0 !important;
+}
+
+.thick16 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #d2d0d0 !important;
+
+  &.w300 {
+    font-weight: 300;
+  }
+
+  &.trText {
+    color: var(--trText);
+  }
+
+  &.title {
+    color: var(--title);
+  }
+}
+
+.thin12 {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 26px;
+  color: var(--cvGray);
+
+  &.w300 {
+    font-weight: 300;
+  }
+
+  &.trText {
+    color: var(--trText);
+  }
+}
+
+.mid18 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  color: var(--trText);
+
+  &.w500 {
+    font-weight: 500;
+  }
+
+  &.title {
+    color: var(--title);
+  }
+}
+
+.color-fff {
+  color: #fff !important;
+}
+
+.color-161921 {
+  color: #161921;
+}
+.color-707070 {
+  color: #707070;
+}
+.text-500-48-57-6-3 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 57.6px;
+  letter-spacing: -3%;
+}
+.ff-poppins {
+  font-family: "Poppins" !important;
+}
+.text-400-16-25-6 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25.6px;
+}
+
+.text-18-700 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+
+  color: var(--primaryTitle);
+  text-align: justify !important;
+  &.lighted {
+    color: #81eff0;
+  }
+}
+
+.text-16-400 {
+  font-size: 16px;
+  text-align: justify !important;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--primaryText);
+}
+
+@media (max-width: 1440px) {
+  .text-16-400 {
+    font-size: 14px;
+    text-align: left !important;
+  }
+  .text-18-700 {
+    font-size: 16px;
+    text-align: left !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .text-mbl-txt {
+    font-size: 16px !important;
+  }
+  .text-16-400 {
+    text-align: justify !important;
+  }
+  .text-18-700 {
+    text-align: justify !important;
+  }
+  .about-us {
+    font-size: 20px !important;
+  }
+}
+
+//-------------------------------------------------------
+
+.text-12 {
+  font-weight: 600;
+  font-size: 12px;
+  color: var(--white);
+  &.input-color {
+    color: var(--inputTextColor);
+    font-weight: 300;
+  }
+}
+
+.text-10 {
+  font-weight: 300;
+  font-size: 10px;
+  color: var(--white);
+  &.dark-gray {
+    color: var(--darkGray2);
+  }
+}
+
+.text-8 {
+  font-weight: 300;
+  font-size: 8px;
+  color: var(--white);
+  &.w600 {
+    font-weight: 600;
+  }
+}
+
+.text-16-600 {
+  font-size: 16px;
+  font-weight: 600;
+  &.white {
+    color: var(--white);
+  }
+}
+.text-17-500 {
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--white);
+  line-height: 26px;
+}
+
+.text-14-400 {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--white);
+  line-height: 18px;
+  &.gray {
+    color: var(--lightGray);
+  }
+  &.w500 {
+    font-weight: 500;
+  }
+  &.w600 {
+    font-weight: 600;
+  }
+  &.purple {
+    color: var(--mainPurple);
+  }
+  &.input-color {
+    color: var(--inputTextColor);
+  }
+}
+.text-13-400 {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--lightGray);
+}
+
+.text-11-500 {
+  font-size: 11px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.text-20-600 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--lightGray);
+  &.purple {
+    color: var(--mainPurple);
+  }
+}
+.text-14 {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  &.purple {
+    color: #81eff0;
+  }
+}
+
+.text-6 {
+  font-size: 6px;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.gradient-huge-text {
+  font-size: 30px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #7103d9 -52.11%, #00a47e 119.72%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; /* Firefox için */
+  text-fill-color: transparent;
+  line-height: 100%;
+}
+
+.agent-mid-text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 100%;
+  color: #d8d8d8;
+}

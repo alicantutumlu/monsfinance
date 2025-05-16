@@ -1,0 +1,77 @@
+.react-flow__node {
+  min-width: 260px;
+  padding: 15px 10px !important;
+  border-radius: 6px !important;
+  /* Yarı saydam koyu bir arka plan rengi */
+  background-color: rgba(44, 44, 44, 0.2) !important;
+
+  /* Blur efekti için backdrop-filter (Safari için -webkit- ekleyin) */
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  color: #f5f5f5 !important;
+  /* Gölge ekleyerek katmanlı bir görünüm sağlama */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+}
+.upload-btn {
+  background-color: #4caf50 !important;
+  border: none;
+  color: white;
+  padding: 3px 6px;
+  font-size: 9px;
+
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, box-shadow 0.2s ease;
+}
+
+.upload-btn:hover {
+  background-color: #45a049;
+}
+
+.upload-btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.info-text {
+  font-size: 7px;
+  color: #41804f;
+}
+
+.custom-input {
+  border: 1px solid var(--input-border-color);
+  border-radius: 5px;
+  height: 50px;
+  width: 100%;
+  outline: none;
+  &.select-box {
+    width: 250px;
+  }
+  &.textarea-height {
+    height: 150px;
+  }
+  &.w-300 {
+    width: 300px;
+  }
+}
+.custom-input:disabled {
+  cursor: not-allowed !important;
+}
+
+.modal-content {
+  background: linear-gradient(
+    90deg,
+    #146263 0%,
+    #27839b 47%,
+    #3f4c88 100%
+  ) !important;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3) !important;
+}
+.modal-body {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.modal-header {
+  color: #f5f5f5;
+}

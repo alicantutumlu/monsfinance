@@ -1,0 +1,18 @@
+.form-select {
+  height: 62px;
+  border-radius: 12px !important;
+  color: var(--trText) !important;
+  font-weight: 300 !important;
+  background-color: transparent !important;
+
+  option {
+    color: var(--trText) !important;
+    background-color: var(--background);
+    border-radius: 12px !important;
+  }
+}
+
+.form-select:focus {
+  border-color: var(--primary) !important;
+  box-shadow: none !important;
+}

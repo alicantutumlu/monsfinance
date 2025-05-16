@@ -1,0 +1,11 @@
+.dropbox {
+    padding: 30px;
+    border: 1px solid var(--primary);
+    display: flex;
+    border-radius: 12px;
+    border-style: dashed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

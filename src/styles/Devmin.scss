@@ -1,0 +1,118 @@
+.dev-container {
+  max-width: 1280px;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  color: white;
+
+  @media (min-width: 640px) {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .form {
+    background-color: #2a302f;
+    padding: 16px;
+    border-radius: 8px;
+    min-height: auto;
+    grid-column: span 6;
+
+    @media (min-width: 1024px) {
+      grid-column-start: 2;
+      grid-column-end: 6;
+    }
+
+    &-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .title {
+        font-size: 1.125rem;
+        font-weight: 600;
+
+        @media (min-width: 640px) {
+          font-size: 1.5rem;
+        }
+      }
+
+      .submit-button {
+        background-color: orange;
+        border-radius: 8px;
+        padding: 8px 16px;
+        font-weight: 600;
+        transition: all 0.2s ease;
+        border: 2px solid transparent;
+
+        &:hover {
+          border-color: orange;
+        }
+
+        &:disabled {
+          opacity: 0.5;
+          cursor: not-allowed;
+        }
+      }
+    }
+
+    .outputs {
+      margin-top: 32px;
+      background-color: #222524;
+      border: 2px solid #6b7280;
+      border-radius: 8px;
+      padding: 8px;
+
+      &-list {
+        padding: 8px;
+
+        .output-item {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          &-spacing {
+            margin-top: 16px;
+          }
+
+          .output-title {
+            letter-spacing: 0.05em;
+          }
+
+          .output-link {
+            color: #80ebff;
+            font-style: italic;
+            transition: all 0.2s ease;
+
+            &:hover {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+
+    .nft-preview {
+      margin-top: 32px;
+      background-color: #222524;
+      border: 2px solid #6b7280;
+      border-radius: 8px;
+      padding: 16px;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .nft-image {
+        border: 2px solid #6b7280;
+        border-radius: 8px;
+      }
+
+      .nft-placeholder {
+        border: 2px solid #6b7280;
+        color: #6b7280;
+        padding: 8px;
+        border-radius: 8px;
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.input-group {
+  textarea {
+    height: 100px;
+  }
+}
+
+.form-control {
+  height: 62px;
+
+  border-radius: 12px !important;
+  color: #f5f5f5 !important;
+  font-weight: 300 !important;
+  background-color: transparent;
+  &.toolkit {
+    color: white !important;
+  }
+}
+.input-group-text {
+  background-color: transparent;
+  border: none;
+}
+.form-control:focus {
+  // border-color: var(--primary) !important;
+  box-shadow: none !important;
+}

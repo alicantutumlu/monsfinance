@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Super Rare NFT #1",
+    "symbol": "SRNFT",
+    "description": "A super rare NFT from the Mons Collection.",
+    "attributes": [
+      { "trait_type": "Rarity", "value": "Legendary" },
+      { "trait_type": "Power", "value": "100" }
+    ],
+    "imageUrl": "https://jade-eldest-tahr-756.mypinata.cloud/ipfs/bafybeidxjgrbe662axnw6dnlbelgx4uedwowkhf33to66xionnrsyck7ay/monsNft1.jpeg",
+    "externalUrl": "https://mons.finance",
+    "sellerFeeBasisPoints": 500
+  },
+  {
+    "name": "Super Rare NFT #2",
+    "symbol": "SRNFT",
+    "description": "Another rare NFT from the Mons Collection.",
+    "attributes": [
+      { "trait_type": "Rarity", "value": "Epic" },
+      { "trait_type": "Power", "value": "90" }
+    ],
+    "imageUrl": "https://jade-eldest-tahr-756.mypinata.cloud/ipfs/bafybeidxjgrbe662axnw6dnlbelgx4uedwowkhf33to66xionnrsyck7ay/monsNft10.jpeg",
+    "externalUrl": "https://mons.finance",
+    "sellerFeeBasisPoints": 400
+  },
+  {
+    "name": "Super Rare NFT #3",
+    "symbol": "SRNFT",
+    "description": "A rare NFT from the Mons Collection.",
+    "attributes": [
+      { "trait_type": "Rarity", "value": "Rare" },
+      { "trait_type": "Power", "value": "80" }
+    ],
+    "imageUrl": "https://jade-eldest-tahr-756.mypinata.cloud/ipfs/bafybeidxjgrbe662axnw6dnlbelgx4uedwowkhf33to66xionnrsyck7ay/monsNft11.jpeg",
+    "externalUrl": "https://mons.finance",
+    "sellerFeeBasisPoints": 300
+  },
+  {
+    "name": "Super Rare NFT #4",
+    "symbol": "SRNFT",
+    "description": "A valuable NFT from the Mons Collection.",
+    "attributes": [
+      { "trait_type": "Rarity", "value": "Uncommon" },
+      { "trait_type": "Power", "value": "70" }
+    ],
+    "imageUrl": "https://jade-eldest-tahr-756.mypinata.cloud/ipfs/bafybeidxjgrbe662axnw6dnlbelgx4uedwowkhf33to66xionnrsyck7ay/monsNft2.jpeg",
+    "externalUrl": "https://mons.finance",
+    "sellerFeeBasisPoints": 200
+  },
+  {
+    "name": "Super Rare NFT #5",
+    "symbol": "SRNFT",
+    "description": "An NFT from the Mons Collection.",
+    "attributes": [
+      { "trait_type": "Rarity", "value": "Common" },
+      { "trait_type": "Power", "value": "60" }
+    ],
+    "imageUrl": "https://jade-eldest-tahr-756.mypinata.cloud/ipfs/bafybeidxjgrbe662axnw6dnlbelgx4uedwowkhf33to66xionnrsyck7ay/monsNft3.jpeg",
+    "externalUrl": "https://mons.finance",
+    "sellerFeeBasisPoints": 100
+  }
+]

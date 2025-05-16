@@ -1,0 +1,169 @@
+.cta-card {
+  position: relative !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  box-shadow: 0 4px 20px 10px rgba(112, 144, 176, 0.12);
+  padding: 29px;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.cta-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  color: var(--ctaText);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  z-index: 9;
+  text-align: center;
+}
+
+.cta-heading {
+  font-weight: 700;
+  font-size: 26px;
+  z-index: 9;
+}
+
+.cta-para {
+  line-height: 1.5;
+}
+
+.cta-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 5px;
+  height: 100%; /* Başlangıçta tam yüksekliği alır */
+  background: linear-gradient(
+    0deg,
+    #002523 0%,
+    #5ac4c5 100%
+  ) !important; /* Dikey gradient */
+
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1); /* 0.5s geçiş süresi */
+}
+
+.cta-card:hover::before {
+  height: 100%; /* Hover sırasında yüksekliği korur */
+  width: 100%;
+  background: linear-gradient(
+    45deg,
+    #002523 0%,
+    #5ac4c5 100%
+  ) !important; /* Hover sırasında sağ üst köşeye doğru döner */
+}
+
+.cta-card:hover .cta-content {
+  color: #fff; /* Hover sırasında içerik rengini değiştir */
+}
+
+@media (max-width: 1440px) {
+  .cta-card {
+    width: 250px;
+    padding: 22px;
+  }
+
+  .cta-content {
+    gap: 20px;
+    font-size: 14px;
+  }
+
+  .cta-heading {
+    font-weight: 600;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .cta-first {
+    margin-top: 100px;
+  }
+
+  .cta-third {
+    margin-top: -90px;
+  }
+}
+@media (max-width: 768px) {
+  .mobile-gap {
+    gap: 1rem;
+  }
+  .cta-card {
+    width: 100%;
+    padding: 22px;
+  }
+
+  .cta-content {
+    gap: 20px;
+    font-size: 14px;
+  }
+  .cta-heading {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .mobile-center {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+  .mobile-mt-3 {
+    margin-top: 0.75rem !important;
+  }
+}
+
+.drop-shadow {
+  box-shadow: 0 4px 20px 10px rgba(112, 144, 176, 0.12);
+  padding: 20px;
+  min-height: 160px;
+  border-radius: 12px;
+}
+.toolkit-card {
+  width: 350px;
+  padding: 20px;
+  border-radius: 6px;
+  /* Yarı saydam koyu bir arka plan rengi */
+  background-color: rgba(44, 44, 44, 0.2);
+
+  /* Blur efekti için backdrop-filter (Safari için -webkit- ekleyin) */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  /* Gölge ekleyerek katmanlı bir görünüm sağlama */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.toolkit-input {
+  height: 60px;
+}
+
+.toolkit-main-title {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.toolkit-main-text {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.custom-line {
+  border: 1px solid white;
+}
+
+.image-setting {
+  width: 300px;
+  height: auto;
+}
+.code-active-card {
+  background: linear-gradient(
+    90deg,
+    #146263 0%,
+    #27839b 47%,
+    #3f4c88 100%
+  ) !important;
+}

@@ -1,0 +1,122 @@
+.theme-switch-one {
+  position: relative;
+  display: inline-block;
+  width: 62px;
+  height: 32px;
+}
+
+.theme-switch-one.style__three .slider {
+  border: 1px solid var(--inputTextColor);
+}
+
+.theme-switch-one.style__one input:checked + .slider:after {
+  transform: translate(-27px, -50%);
+  background: url(/icons/sun-dark.svg);
+  height: 12px;
+  width: 13px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.theme-switch-one.style__one .slider:after {
+  transition: 0.4s;
+  position: absolute;
+  content: "";
+  width: 13px;
+  height: 13px;
+  background: url(/icons/moon-dark.svg);
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  z-index: 2;
+}
+
+.theme-switch-one.style__two {
+  height: 37px;
+  width: 37px;
+  border-radius: 50%;
+}
+
+.theme-switch-one.style__two input:checked + .slider {
+  background: hsla(0, 0%, 100%, 0.1);
+}
+
+.theme-switch-one.style__two input:checked + .slider:before {
+  transform: translateX(0) !important;
+  background: url(/icons/sun-regular.svg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.theme-switch-one.style__two .slider {
+  background: #fbebeb;
+  box-shadow: none;
+}
+
+.theme-switch-one.style__two .slider:before {
+  filter: invert(1);
+  background: url(/icons/moon-fill.svg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  box-shadow: none;
+}
+
+.theme-switch-one input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  border: none;
+}
+
+.theme-switch-one .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+
+.theme-switch-one .slider:before {
+  position: absolute;
+  content: "";
+  height: 82%;
+  aspect-ratio: 1/1;
+  left: 4px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  transition: 0.4s;
+  background: var(--mainPurple);
+  background: var(--mainPurple) url(/icons/sun-regular.svg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  z-index: 9;
+}
+
+.theme-switch-one input:checked + .slider {
+  background: hsla(0, 0%, 100%, 0.1);
+}
+
+.theme-switch-one input:focus + .slider {
+  box-shadow: none;
+}
+
+.theme-switch-one input:checked + .slider:before {
+  transform: translateX(28px);
+  background: var(--mainPurple) url(/icons/moon-regular.svg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.theme-switch-one .slider.round {
+  border-radius: 34px;
+}
+
+.theme-switch-one .slider.round:before {
+  border-radius: 50%;
+}

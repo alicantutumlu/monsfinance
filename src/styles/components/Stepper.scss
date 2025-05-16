@@ -1,0 +1,75 @@
+.myStepper {
+    h1 {
+        color: var(--primary);
+        font-weight: 300;
+        font-size: 16px;
+        margin-bottom: 0px !important;
+        line-height: 22px;
+    }
+
+    h2 {
+        color: var(--gray);
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 14px;
+        margin-bottom: 0px !important;
+    }
+
+    span {
+        margin-left: 2px;
+    }
+
+    .completed {
+        font-weight: 300;
+        font-size: 10px;
+        color: var(--completed);
+    }
+
+
+    .borderContainer {
+        height: 50px;
+        display: flex;
+        gap: 10px;
+    }
+
+
+    .border {
+        border: 1px solid var(--borderColor);
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        list-style-type: none;
+        padding: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .inBorder {
+
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &.active {
+            background-color: var(--inBorder);
+        }
+    }
+
+    .lineContainer {
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        padding-bottom: 5px;
+    }
+
+
+
+}

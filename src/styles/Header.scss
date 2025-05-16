@@ -1,0 +1,162 @@
+.header {
+  position: fixed !important;
+  width: 100%;
+  z-index: 999;
+  top: 0px;
+
+  box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.1);
+  padding-right: 30px;
+  padding-left: 30px;
+
+  &.nonHome {
+    background-color: var(--background);
+    position: relative;
+  }
+
+  &.scroll {
+    background-color: var(--background);
+  }
+}
+
+@media (max-width: 1326px) {
+  .header {
+    padding: 0px !important;
+  }
+}
+
+li {
+  cursor: pointer;
+}
+
+.headersub {
+  list-style-type: none;
+
+  .image-container {
+    width: 300px;
+    height: 100px;
+  }
+}
+
+.navbar {
+  display: block;
+}
+
+@media (max-width: 1326px) {
+  .navbar {
+    display: none !important;
+  }
+}
+@keyframes slideDown {
+  from {
+    height: 0;
+  }
+  to {
+    height: 45%;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    height: 45% !important;
+  }
+  to {
+    height: 0;
+  }
+}
+
+.navbarMobile {
+  &.active {
+    position: fixed;
+    width: 100%;
+    height: 45%;
+    animation: slideDown 0.5s ease forwards;
+    background-color: var(--background);
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 20px 10px rgba(112, 144, 176, 0.12);
+    gap: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 24px;
+  }
+
+  .close {
+    position: absolute;
+
+    top: 5%;
+    right: 10%;
+  }
+}
+
+@media (min-width: 1326px) {
+  .navbarMobile {
+    display: none !important;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(1px);
+  z-index: 999;
+  display: none;
+}
+
+.overlay.active {
+  display: block;
+}
+.headerBottom {
+  list-style-type: none;
+  height: 65px;
+  background: linear-gradient(90deg, #146263 0%, #27839b 47%, #3f4c88 100%);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  overflow: auto;
+
+  span {
+    margin-left: 5px;
+  }
+
+  li {
+    height: 100%;
+
+    &.active {
+      border-bottom: 3px solid var(--header);
+    }
+  }
+}
+
+.buy-text {
+  color: var(--buyText) !important;
+}
+.buy-text:hover {
+  color: #146263 !important;
+}
+.scrolled-text {
+  &.false {
+    color: var(--defaultTextColor) !important;
+  }
+  &.true {
+    color: var(--footerLinks) !important;
+  }
+}
+.scrolled-text:hover {
+  color: #207989 !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.scrolled-text:active {
+  color: #207989 !important;
+  text-shadow: none;
+}

@@ -1,0 +1,116 @@
+.toolbar-border {
+  border: 1px solid rgb(218, 218, 218);
+  border-radius: 20px;
+  width: 60px !important;
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-height: 280px !important;
+}
+
+.block-border {
+  border: 1px solid rgb(218, 218, 218);
+  border-radius: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 90%;
+}
+
+.block-category-border {
+  border: 1px solid rgb(218, 218, 218);
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.block-category-border-active {
+  background-color: rgb(186, 186, 186);
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.block-category-border:hover {
+  background-color: rgb(186, 186, 186);
+  color: black;
+}
+
+.toolbar-btn img {
+  width: 25px;
+  height: 25px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.toolbar-btn:hover img {
+  transform: scale(1.1);
+  filter: brightness(1.1);
+}
+
+.toolbar-btn:active img {
+  transform: scale(0.9);
+}
+
+.border-ct {
+  border: 1px solid rgb(218, 218, 218);
+  width: 100%;
+}
+
+.plus-icon-bg {
+  background-color: rgb(218, 218, 218);
+  padding: 5px;
+  border-radius: 10px;
+}
+.plus-icon-bg img {
+  height: 30px;
+  width: 100%;
+}
+
+.ai-border {
+  border: 1px solid rgb(218, 218, 218);
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease; /* Yumuşak geçiş efekti */
+}
+
+.ai-border::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  background-color: orange;
+  border-radius: 10px 0 0 10px;
+  transition: width 0.3s ease; /* Yumuşak geçiş efekti */
+}
+
+.ai-border:hover {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Daha şık gölge efekti */
+  transform: translateY(-1px); /* Hoverda hafif yukarı kayma efekti */
+}
+
+.ai-border:hover::before {
+  width: 8px; /* Hoverda renkli alanın genişlemesi */
+}
+
+.block-title {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.ai-title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.overflow-card {
+  overflow: auto;
+  height: 500px;
+}

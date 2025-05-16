@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Select Token Pack",
+        "step": "Step 1",
+        "desc": "Please select the pack below for the Tokens you want to add to your own pack. "
+    },
+    {
+        "name": "Pack Information",
+        "step": "Step 2",
+        "desc": "Please enter the required information about your pack below."
+    },
+    {
+        "name": "Pack Overview",
+        "step": "Step 3",
+        "desc": "Please check the details of your pack and complete the new pack creation process."
+    }
+]

@@ -1,0 +1,31 @@
+.chat-sidebar-bg {
+  border-radius: 6px;
+  background-color: rgba(44, 44, 44, 0.4); /* Şeffaflık eklendi */
+  padding: 40px;
+  width: 95%;
+}
+
+.image-size {
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+}
+
+.title-text {
+  font-size: 32px;
+  line-height: 54px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.subtitle-text {
+  font-size: 14px;
+  color: #fff;
+  line-height: 20px;
+}
+
+.normal-text {
+  font-size: 14px;
+  color: rgba(223, 223, 223, 0.8);
+  line-height: 20px;
+}

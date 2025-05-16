@@ -1,0 +1,73 @@
+:root {
+  --defaultTextColor: #fff;
+  --buyText: #207989;
+  --primaryTitle: #474747;
+  --primaryText: #474747;
+  --cardBg: #e7efef;
+  --ctaText: #0e3b37;
+  --footerCopy: #797979;
+  --footerLinks: #2c2c2c;
+  --primary: #27839b;
+  --background: #fff;
+  --landing: #0e3b37;
+  --landingRv: #fbfaf3;
+  --title: #0f0f0e;
+  --gray: #bdbdbd;
+  --cvGray: #bdbdbd;
+  --trText: #828282;
+  --trConst: #828282;
+  --header: #fff;
+  --outHeader: #000;
+  --borderColor: #d9d9d9;
+  --inBorder: #27839b47;
+  --completed: #6fcf97;
+  --purple: #3f4c88;
+  --tableHeader: #e7e7e7;
+  --disabled: #aba0c9;
+  --boxShadow: #cdcdcd40;
+  --buyButtonBefore: rgba(138, 220, 207, 0.53);
+  --blackWhiteFilter: brightness(0) saturate(100%) invert(0%) sepia(100%)
+    saturate(7500%) hue-rotate(224deg) brightness(113%) contrast(114%);
+  --crossIconColor: #333;
+  --dragColor: #f5f5f5;
+  --fileUploadbg:#fff
+  --mainBg: #ffffff;
+  --text-agent:#000;
+}
+
+body.theme-dark {
+  --defaultTextColor: #fff;
+  --fileUploadbg:#202020;
+  --buyText: #89feff;
+  --primaryTitle: #27839b;
+  --dragColor: #2a2a2a;
+  --primaryText: #f9f9f9;
+  --cardBg: #293c41;
+  --ctaText: #f5f5f5;
+  --footerCopy: #207989;
+  --footerLinks: #fff;
+  --primary: #27839b;
+  --background: #010818;
+  --landing: #89feff;
+  --landingRv: #0e3b37;
+  --title: #fff;
+  --gray: #bdbdbd;
+  --cvGray: #fff;
+  --trText: #fff;
+  --trConst: #828282;
+  --header: #fff;
+  --outHeader: #000;
+  --borderColor: #d9d9d9;
+  --inBorder: #27839b47;
+  --completed: #6fcf97;
+  --purple: #fff;
+  --tableHeader: #2d2d2d;
+  --disabled: #852f78;
+  --buyButtonBefore: #207989;
+  --boxShadow: #002321;
+  --blackWhiteFilter: brightness(0) saturate(100%) invert(100%) sepia(100%)
+    saturate(2%) hue-rotate(112deg) brightness(103%) contrast(101%);
+  --crossIconColor: #f5f5f5;
+  --mainBg: #181818;
+  --text-agent:#d8d8d8;
+}

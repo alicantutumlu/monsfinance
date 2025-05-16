@@ -1,0 +1,59 @@
+.custom-loader-overlay {
+  position: fixed; // Sayfanın tamamını kaplar
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); // Saydam siyah arka plan
+  z-index: 9999999999; // Diğer içeriklerin üstünde kalmasını sağlar
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: all; // Tüm etkileşimleri engeller
+}
+
+.custom-loader-container {
+  position: relative; // Overlay içinde ortalanır
+  .spinner-bg {
+    height: 128px;
+    width: 128px;
+    position: relative;
+    border-radius: 50%;
+
+    &::before {
+      content: "";
+      background-image: conic-gradient(
+        rgb(255 255 255) 20deg,
+        var(--primary) 210deg
+      );
+      border-radius: 50%;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      animation: rotate 2s infinite linear;
+    }
+
+    &::after {
+      content: "";
+      background-color: var(--primary) !important;
+      width: 85%;
+      height: 85%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      background-image: url("/mons/loader.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 50%;
+      background-color: #fff;
+    }
+  }
+
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}
