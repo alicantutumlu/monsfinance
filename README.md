@@ -1,34 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MonsFinance
 
-## Getting Started
+### 🚀 Built for the **Colosseum Hackathon**
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## 🧠 Project Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Mons.Finance** is pioneering Agentic AI-driven DeFi, transforming how users interact with NFTs, tokens, and staking mechanisms.  
+At its core, we are building an ecosystem where AI agents actively participate in:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- Financial decision-making  
+- Asset management  
+- Optimization of user assets  
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Rather than merely offering suggestions, these AI agents take intelligent, autonomous actions to improve outcomes for users in the decentralized finance space.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+---
 
-## Learn More
+## 🔧 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Frontend**: *(React / Next.js / Tailwind)*  
+- **Backend**: *(Node.js / Express / Python Flask - if any)*  
+- **Blockchain**: *(Solana / Rust-based smart contracts / Anchor framework)*  
+- **AI**: *(OpenAI APIs / Custom ML Models)*
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 👥 Team
 
-## Deploy on Vercel
+Developed by a passionate team of AI, blockchain, and DeFi enthusiasts during the **Colosseum Hackathon**.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📄 License
+
+This project is licensed under the MIT License.
